@@ -49,7 +49,9 @@ then
   printf '%s\n' '                        /____/                       '
   printf "${BLUE}%s\n" "Hooray! Oh My Zsh has been updated and/or is at the current version."
   printf "${BLUE}${BOLD}%s${NORMAL}\n" "To keep up on the latest news and updates, follow us on twitter: https://twitter.com/ohmyzsh"
-  printf "${BLUE}${BOLD}%s${NORMAL}\n" "Get your Oh My Zsh swag at: https://shop.planetargon.com/collections/oh-my-zsh"
+  printf "${BLUE}${BOLD}%s${NORMAL}\n" "Get your Oh My Zsh swag at:  https://shop.planetargon.com/collections/oh-my-zsh"
+  cp $ZSH/templates/zshrc.zsh-template ~/.zshrc
+  printf "${YELLOW}%s${NORMAL}\n" 'zshrc has been updated!'
 else
   printf "${RED}%s${NORMAL}\n" 'There was an error updating. Try again later?'
 fi

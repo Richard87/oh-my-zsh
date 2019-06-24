@@ -33,24 +33,13 @@ Oh My Zsh is installed by running one of the following commands in your terminal
 #### via curl
 
 ```shell
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/Richard87/oh-my-zsh/master/tools/install.sh)"
 ```
 
 #### via wget
 
 ```shell
-sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-
-#### Manual inspection
-
-It's a good idea to inspect the install script from projects you don't yet know. You can do
-that by downloading the install script first, looking through it so everything looks normal,
-then running it:
-
-```shell
-curl -Lo install.sh https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
-sh install.sh
+sh -c "$(wget https://raw.githubusercontent.com/Richard87/oh-my-zsh/master/tools/install.sh -O -)"
 ```
 
 ## Using Oh My Zsh
@@ -191,7 +180,7 @@ REPO=apjanke/oh-my-zsh BRANCH=edge sh install.sh
 ##### 1. Clone the repository:
 
 ```shell
-git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
+git clone https://github.com/robbyrussell/ohmyzsh.git ~/.oh-my-zsh
 ```
 
 ##### 2. *Optionally*, backup your existing `~/.zshrc` file:
