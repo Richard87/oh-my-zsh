@@ -99,3 +99,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+export KUBE_EDITOR="code --wait"
+export GOPATH=$HOME/go
+export NPM_PATH=$HOME/.npm
+export PATH=$PATH:$HOME/.local/bin:$HOME/.npm-packages/bin:$HOME/bin:$GOPATH/bin:$HOME/.linkerd2/bin:$NPM_PATH/bin
+export KUBE_EDIT="code --wait"
