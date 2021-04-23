@@ -5,4 +5,4 @@ custom/
 cache/
 log/
 *.swp
-.idea
+.DS_Store
